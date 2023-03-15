@@ -18,8 +18,8 @@
         <nav class="py-3">
             <div class="container-fluid bg-white d-flex justify-content-between align-items-center">
                 <div class="me-3">
-                    <img src="./assets/img/logo.svg" alt="logo-boolean" class="d-none d-lg-block">
-                    <img id="logo-small" src="./assets/img/mobile-logo.png" alt="logo-boolean-mobile" class="d-lg-none d-md-block">
+                    <img src="./assets/img/logo.svg" alt="logo-boolean" class="d-none d-md-block">
+                    <img id="logo-small" src="./assets/img/mobile-logo.png" alt="logo-boolean-mobile" class="d-md-none">
                 </div>
                 <div class="flex-grow-1">
                     <div class="input-group">
@@ -28,9 +28,9 @@
                       </div>
                 </div>
                 <div class="ms-3">
-                    <a href="#"><i class="fa-solid fa-bars d-none d-lg-inline-block"></i></a>
-                    <a href="#"><i class="fa-solid fa-circle-question d-none d-lg-inline-block ms-2"></i></a>
-                    <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block mx-2"></i></a>
+                    <a href="#"><i class="fa-solid fa-bars d-none d-md-inline-block"></i></a>
+                    <a href="#"><i class="fa-solid fa-circle-question d-none d-md-inline-block ms-2"></i></a>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-md-inline-block mx-2"></i></a>
                     <div class="dropdown d-inline-block">
                         <button class="border-0 bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell text-warning"></i>
@@ -45,6 +45,31 @@
             </div>
         </nav>
     </header>
+
+    <main class="d-flex flex-row">
+        <!-- sidebar -->
+        <div id="sidebar" class="d-flex flex-column justify-content-between align-items-center py-4 px-2 text-white">
+            <div class="">
+                <ul class="list-unstyled">
+                    <li class="p-2 mb-2"><a href="#" class="text-decoration-none text-white"><i class="fa-solid fa-house"></i><span class="ms-2 text-capitalize d-none d-md-inline">home</span></a></li>
+                    <li class="p-2 mb-2"><a href="#" class="text-decoration-none text-white"><i class="fa-solid fa-chart-simple"></i><span class="ms-2 text-capitalize d-none d-md-inline">stats</span></a></li>
+                    <li class="p-2"><a href="#" class="text-decoration-none text-white"><i class="fa-solid fa-signal"></i><span class="ms-2 text-capitalize d-none d-md-inline">signals</span></a></li>
+                </ul>
+            </div>
+            <div id="admin" class="p-2">
+                <a href="#" class="text-decoration-none text-white list-group-item-action"><i class="fa-solid fa-gear"></i><span class="ms-2 text-capitalize d-none d-md-inline">admin</span></a>
+            </div>
+        </div>
+
+        <!-- main dashboard -->
+        <div id="dashboard">
+    
+        </div>
+
+
+    </main>
+        
+   
 
     
 

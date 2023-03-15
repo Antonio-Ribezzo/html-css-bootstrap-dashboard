@@ -1,6 +1,10 @@
 /******************/
 /******header******/
 /******************/
+#header{
+    height: 70px;
+}
+
 #header a{
     background-color: #f8f9fa;
     color: #5b5858;
@@ -14,4 +18,48 @@
 #logo-small{
     width: 40px;
     aspect-ratio: 1;
+}
+
+/******************/
+/*******main*******/
+/******************/
+main{
+    height: calc(100vh - 70px);
+    width: 100%;
+}
+
+/* sidebar */
+#sidebar{
+    height: 100%;
+    flex-basis: 100px;
+    background-color: #051e34;
+    background-image: url('../img/sidebar-bg.png');
+    font-size: 0.8rem;
+}
+
+#sidebar div ul li:hover,
+#sidebar #admin:hover{
+    background-color: rgba(202, 202, 202, 0.484);
+}
+
+/* dashboard */
+#dashboard{
+    padding: 2rem;
+    overflow: auto;
+    background-color: red;
+    flex-basis: calc(100% - 100px);
+    font-size: 50px;
+}
+
+/******************/
+/***media-query****/
+/******************/
+@media only screen and (max-width: 768px){
+    #sidebar{
+        flex-basis: 50px;
+    }
+
+    #dashboard{
+        flex-basis: calc(100% - 50px);
+    }
 }

@@ -1,0 +1,17 @@
+/******************/
+/******header******/
+/******************/
+#header a{
+    background-color: #f8f9fa;
+    color: #5b5858;
+}
+
+.input-group-text,
+#header input{
+    background-color: #e5e5e5;
+}
+
+#logo-small{
+    width: 40px;
+    aspect-ratio: 1;
+}

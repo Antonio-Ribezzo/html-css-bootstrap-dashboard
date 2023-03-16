@@ -26,6 +26,7 @@
 main{
     height: calc(100vh - 70px);
     width: 100%;
+    font-size: 0.8rem;
 }
 
 /* sidebar */
@@ -66,14 +67,23 @@ main{
     background-color:#0d3c79f9;
 }
 
+#dashboard-top button{
+    padding: 0.2rem 0.6rem;
+}
+
 .offcanvas{
     width: 40% !important;
 }
 
 /* dashboard-bottom */
-#dashboard-bottom{
+#dashboard-bottom #prossime-classi button{
+    padding: 0.1rem 0.5rem;
 }
 
+#dashboard-bottom .fa-pencil,
+#dashboard-bottom .fa-trash{
+    font-size: 0.8rem;
+}
 
 /******************/
 /***media-query****/

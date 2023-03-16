@@ -44,12 +44,36 @@ main{
 
 /* dashboard */
 #dashboard{
-    padding: 2rem;
     overflow: auto;
-    background-color: red;
     flex-basis: calc(100% - 100px);
-    font-size: 50px;
 }
+
+/* dashboard-top */
+#dashboard-top{
+    background-color: #1b73e8;
+}
+
+#society-name{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.rounded-pill{
+    background-color:#0d3c7973;
+}
+
+.rounded-pill:hover{
+    background-color:#0d3c79f9;
+}
+
+.offcanvas{
+    width: 40% !important;
+}
+
+/* dashboard-bottom */
+#dashboard-bottom{
+}
+
 
 /******************/
 /***media-query****/
@@ -61,5 +85,9 @@ main{
 
     #dashboard{
         flex-basis: calc(100% - 50px);
+    }
+
+    .offcanvas{
+        width: 100% !important;
     }
 }
